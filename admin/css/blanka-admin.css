@@ -1,0 +1,129 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #246071;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1 {
+  line-height: 1.4;
+  text-align: center;
+}
+
+p {
+  color: #5e5e5e;
+  font-weight: 400;
+}
+
+.blanka__main {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blanka__card {
+  background: #fff;
+  padding: 80px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blanka__logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 25px;
+}
+.blanka__logos img {
+  max-width: 80px;
+}
+
+.blanka__logos--error img {
+  max-width: 120px;
+}
+
+.blanka__button {
+  background: #246071;
+  padding: 10px 50px;
+  border-radius: 0px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 6.03172px;
+  padding-bottom: 8px;
+}
+
+.blanka__button:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+
+.blanka__title {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 25px;
+}
+
+.blanka__title img {
+  width: 100px;
+  height: 100%;
+  padding-left: 10px;
+}
+
+.blanka__description {
+  margin-bottom: 25px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.blanka__footer_icon {
+  position: fixed;
+  bottom: 0px;
+}
+
+.blanka__card--connected .blanka__logos {
+  width: auto;
+}
+
+.blanka__card--connected .blanka__logos .connect-image-check {
+  width: 20px;
+}
+
+.blanka__card--connected .blanka__logos p {
+  padding: 0px 10px;
+  text-align: center;
+}
+
+.toplevel_page_blanka .wp-menu-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toplevel_page_blanka .wp-menu-image img {
+  width: 25px;
+  margin-top: -7px;
+  opacity: 1;
+}
